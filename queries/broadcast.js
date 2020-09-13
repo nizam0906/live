@@ -12,6 +12,9 @@ const getBroadcasterById = async (broadcasterId) => {
 const getAllBroadcasters = async () => {
     return await db.any(`SELECT * FROM broadcasters WHERE broadcaster_active = true;`)
 }
+const tbl = async () => {
+    return await db.any(` CREATE TABLE IF NOT EXISTS broadcasters (id SERIAL PRIMARY KEY,socket_id VARCHAR,username VARCHAR,broadcaster_active BOOLEAN DEFAULT TRUE);`)
+}
 
 //POST
 const createBroadcaster = async (bodyObj) => {
