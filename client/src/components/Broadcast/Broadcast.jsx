@@ -144,7 +144,7 @@ const Broadcast = () => {
         />
         <div className="name-input">
           <input
-            placeholder="Enter your username"
+            placeholder="Enter Live Program Name"
             className="joinInput"
             type="text"
             onChange={(event) => setName(event.target.value)}
@@ -171,7 +171,7 @@ const Broadcast = () => {
         </button>
         <h3>Viewers: {numberOfViewers}</h3>
         <p>
-          To start a stream, first enter a publicly visible USERNAME and click
+          To start a stream, first enter Live Program Name and click
           CONNECT to connect to the server.
         </p>
         <p>
