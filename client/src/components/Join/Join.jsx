@@ -10,7 +10,7 @@ import "./Join.css";
 const Join = () => {
   const [broadcasters, setBroadcasters] = useState([]);
 
-  const ENDPOINT = "https://dougtv.herokuapp.com/";
+  const ENDPOINT = "https://live745.herokuapp.com/";
   const [socket] = useSocket(ENDPOINT);
 
   useEffect(() => {
