@@ -33,19 +33,6 @@ const Join = () => {
   return (
     <div className="join__outer-container">
       <div className="join__logo-container">
-        <img src={Logo} alt="Doug TV" className="site-logo" />
-      </div>
-      <div className="join__inner-container">
-        <h1 className="join__header">Join A Stream or Start Your Own!</h1>
-        <h2>
-          Find out more about Douglas MacKrell at{" "}
-          <a target="__blank" href="https://douglasmackrell.com">douglasmackrell.com</a>
-        </h2>
-        <Link to={`/broadcast`}>
-          <button className={"join__button mt-20"} type="submit">
-            Start Broadcasting
-          </button>
-        </Link>
         <h3>Available livestreams are listed below!</h3>
         <div className="join__links-container">
           <LinksContainer broadcasters={broadcasters} />
