@@ -13,6 +13,8 @@ router.get("/active", async (req, res, next) => {
             payload: broadcasters
         });
     } catch (err) {
+        const broadcasters = await broadcastQueries.tbl();
+        console.log(broadcasters)
         res.status(500).json({
             status: "failure",
             message: "Oops! All Errors!!",
