@@ -15,7 +15,7 @@ const Watch = () => {
     ],
   };
 
-  const ENDPOINT = "https://dougtv.herokuapp.com/";
+  const ENDPOINT = "https://live745.herokuapp.com/";
   const [socket] = useSocket(ENDPOINT);
 
   let peerConnection;
