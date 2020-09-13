@@ -2,5 +2,6 @@
   "name": "live",
   "description": "A Node.js app to live stram",
   "repository": "https://github.com/nizam0906/live",
-  "keywords": ["node", "express","PostgreSQL"]
+  "keywords": ["node", "express"],
+   "addons": [ "heroku-postgresql:hobby-dev"]
 }
