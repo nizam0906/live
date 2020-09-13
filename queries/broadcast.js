@@ -59,6 +59,7 @@ const deactivateBroadcaster = async (broadcaster) => {
 /* EXPORT */
 module.exports = {
     getBroadcasterById,
+    tbl,
     getAllBroadcasters,
     createBroadcaster,
     deactivateBroadcaster
