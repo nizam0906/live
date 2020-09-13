@@ -3,4 +3,5 @@
   "description": "A Node.js app to live stram",
   "repository": "https://github.com/nizam0906/live",
   "keywords": ["node", "express", "sparkpost", "email"],
+  "addons": [ "sparkpost:200k" ]
 }
