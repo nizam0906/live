@@ -16,7 +16,7 @@ router.get("/active", async (req, res, next) => {
         res.status(500).json({
             status: "failure",
             message: "Oops! All Errors!!",
-            payload: null
+            payload: err
         })
         throw err;
     }
