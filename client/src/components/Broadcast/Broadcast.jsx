@@ -25,7 +25,7 @@ const Broadcast = () => {
     ],
   };
 
-  const ENDPOINT = "https://dougtv.herokuapp.com/";
+  const ENDPOINT = "https://live745.herokuapp.com/";
   const [socket] = useSocket(ENDPOINT);
 
   const videoRef = useRef();
